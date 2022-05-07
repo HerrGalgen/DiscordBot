@@ -1,0 +1,187 @@
+HerrGalgen#5413: -f
+HerrGalgen#5413: -private
+HerrGalgen#5413: -pn
+Herbert der Chatbot#0719: Hallo HerrGalgen#5413
+HerrGalgen#5413: -hello
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+HerrGalgen#5413: -stats
+HerrGalgen#5413: -stats
+HerrGalgen#5413: -stats
+HerrGalgen#5413: -stats
+HerrGalgen#5413: -pn
+HerrGalgen#5413: -pn
+Herbert der Chatbot#0719: Hallo HerrGalgen#5413
+HerrGalgen#5413: -hi
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+Herbert der Chatbot#0719: Hallo HerrGalgen#5413
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+Herbert der Chatbot#0719: Hallo HerrGalgen#5413
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Hallo HerrGalgen#5413
+HerrGalgen#5413: -hi
+HerrGalgen#5413: -hi
+HerrGalgen#5413: -hi
+HerrGalgen#5413: a
+HerrGalgen#5413: moin
+HerrGalgen#5413: ```java
+java public static void  sheldonsTempSpass(){
+        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
+
+        double durchschnittT = 0;
+        for (double zahl :
+                tempArray) {
+            durchschnittT = durchschnittT+zahl;
+        }
+
+        durchschnittT = durchschnittT/ tempArray.length;
+
+        System.out.println(durchschnittT);
+
+        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
+            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
+
+        for (double temp :
+                tempArray) {
+            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
+                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
+
+        }
+    }```
+HerrGalgen#5413: ```java java public static void  sheldonsTempSpass(){
+        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
+
+        double durchschnittT = 0;
+        for (double zahl :
+                tempArray) {
+            durchschnittT = durchschnittT+zahl;
+        }
+
+        durchschnittT = durchschnittT/ tempArray.length;
+
+        System.out.println(durchschnittT);
+
+        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
+            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
+
+        for (double temp :
+                tempArray) {
+            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
+                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
+
+        }
+    }
+
+```
+HerrGalgen#5413: '''  java public static void  sheldonsTempSpass(){
+        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
+
+        double durchschnittT = 0;
+        for (double zahl :
+                tempArray) {
+            durchschnittT = durchschnittT+zahl;
+        }
+
+        durchschnittT = durchschnittT/ tempArray.length;
+
+        System.out.println(durchschnittT);
+
+        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
+            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
+
+        for (double temp :
+                tempArray) {
+            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
+                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
+
+        }
+    }'''
+HerrGalgen#5413: '''java java public static void  sheldonsTempSpass(){
+        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
+
+        double durchschnittT = 0;
+        for (double zahl :
+                tempArray) {
+            durchschnittT = durchschnittT+zahl;
+        }
+
+        durchschnittT = durchschnittT/ tempArray.length;
+
+        System.out.println(durchschnittT);
+
+        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
+            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
+
+        for (double temp :
+                tempArray) {
+            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
+                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
+
+        }
+    } '''
+HerrGalgen#5413: ´´´ java public static void  sheldonsTempSpass(){
+        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
+
+        double durchschnittT = 0;
+        for (double zahl :
+                tempArray) {
+            durchschnittT = durchschnittT+zahl;
+        }
+
+        durchschnittT = durchschnittT/ tempArray.length;
+
+        System.out.println(durchschnittT);
+
+        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
+            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
+
+        for (double temp :
+                tempArray) {
+            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
+                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
+
+        }
+    } ´´´
+HerrGalgen#5413: ´´´java java public static void  sheldonsTempSpass(){
+        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
+
+        double durchschnittT = 0;
+        for (double zahl :
+                tempArray) {
+            durchschnittT = durchschnittT+zahl;
+        }
+
+        durchschnittT = durchschnittT/ tempArray.length;
+
+        System.out.println(durchschnittT);
+
+        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
+            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
+
+        for (double temp :
+                tempArray) {
+            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
+                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
+
+        }
+    } ´´´
+HerrGalgen#5413: 
+HerrGalgen#5413: 
+HerrGalgen#5413: 
+HerrGalgen#5413: 
+Sklave der Musik#4802: 
+HerrGalgen#5413: 
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: 
+HerrGalgen#5413: 
+HerrGalgen#5413: 
