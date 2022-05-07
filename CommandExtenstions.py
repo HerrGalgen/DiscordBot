@@ -3,6 +3,7 @@ from discord.ext import commands
 from discord.ext.commands.context import Context
 from discord import Member
 import GeneralCommands
+import StartBot
 from Music import Music
 
 client = commands.Bot(
@@ -54,7 +55,6 @@ async def hello(ctx: Context):
     help="play"
 )
 async def play(ctx: Context):
-
     mode = ""
     music = Music(ctx)
 
@@ -77,4 +77,4 @@ async def play(ctx: Context):
 
 
 if __name__ == "__main__":
-    client.run('ODM1NTQ0MjY4MDU5MzEyMTg4.YIQ_PQ.dmhZVQMkhliP1U0KcsubQUoC9f0')
+    StartBot.start(client)
