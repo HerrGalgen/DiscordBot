@@ -11,6 +11,8 @@ client = commands.Bot(
     help_command=None
 )
 
+music = Music()
+
 
 @client.event
 async def on_ready():
@@ -26,6 +28,16 @@ async def on_ready():
 )
 async def stats(ctx: Context):
     await GeneralCommands.upload_file(ctx)
+
+
+@client.command(
+    name="ping",
+    aliases=["p"],
+    description="Gibt den Ping zurück.",
+    help="ping"
+)
+async def stats(ctx: Context):
+    await GeneralCommands.ping(ctx, client)
 
 
 @client.command(
@@ -56,7 +68,8 @@ async def hello(ctx: Context):
 )
 async def play(ctx: Context):
     mode = ""
-    music = Music(ctx)
+
+    music.update(ctx)
 
     try:
         mode = ctx.message.content.split(" ")[1]

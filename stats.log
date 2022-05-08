@@ -1,187 +1,100 @@
-HerrGalgen#5413: -f
-HerrGalgen#5413: -private
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+Lena  Laurer#8203: -pn
+Lena  Laurer#8203: -ping
 HerrGalgen#5413: -pn
-Herbert der Chatbot#0719: Hallo HerrGalgen#5413
-HerrGalgen#5413: -hello
+Herbert der Chatbot#0719: Hallo <@!239377003449417731>
+HerrGalgen#5413: -hi
+Herbert der Chatbot#0719: Der Bot war noch nicht in einem Sprachkanel, er versucht jetzt beizutreten.
+HerrGalgen#5413: -m play https://www.youtube.com/watch?v=izVX6Rj1JU0
+HerrGalgen#5413: -m stop
+HerrGalgen#5413: -m play https://www.youtube.com/watch?v=D-cZVjSLhSE
+Lena  Laurer#8203: ficken
+Herbert der Chatbot#0719: resume
+HerrGalgen#5413: -m resume
+Herbert der Chatbot#0719: Paused
+HerrGalgen#5413: -m pause
+HerrGalgen#5413: -m play https://www.youtube.com/watch?v=D-cZVjSLhSE
+HerrGalgen#5413: -m start
+Lena  Laurer#8203: test
+Lena  Laurer#8203: hello
+Lena  Laurer#8203: hello
+Lena  Laurer#8203: hello
+Got iz#9393: hello right back at you!
+Lena  Laurer#8203: hello
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+Got iz#9393: Pong! 126 ms
+Lena  Laurer#8203: -ping
+Got iz#9393: Pong! 126 ms
+Lena  Laurer#8203: -ping
+Lena  Laurer#8203: -help
+Got iz#9393: Pong! 127 ms
+HerrGalgen#5413: -ping
+Lena  Laurer#8203: -help
+Got iz#9393: Pong! 127 ms
+Lena  Laurer#8203: -ping
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
 Herbert der Chatbot#0719: 
 HerrGalgen#5413: -stats
 HerrGalgen#5413: -stats
-HerrGalgen#5413: -stats
-HerrGalgen#5413: -stats
-HerrGalgen#5413: -stats
-HerrGalgen#5413: -pn
-HerrGalgen#5413: -pn
-Herbert der Chatbot#0719: Hallo HerrGalgen#5413
-HerrGalgen#5413: -hi
-HerrGalgen#5413: -hi
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-Herbert der Chatbot#0719: Hallo HerrGalgen#5413
-HerrGalgen#5413: -hi
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-Herbert der Chatbot#0719: Hallo HerrGalgen#5413
-HerrGalgen#5413: -hi
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-HerrGalgen#5413: -hi
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-HerrGalgen#5413: -hi
-Herbert der Chatbot#0719: Hallo @HerrGalgen#5413
-HerrGalgen#5413: -hi
-Herbert der Chatbot#0719: Hallo HerrGalgen#5413
-HerrGalgen#5413: -hi
-HerrGalgen#5413: -hi
-HerrGalgen#5413: -hi
-HerrGalgen#5413: a
-HerrGalgen#5413: moin
-HerrGalgen#5413: ```java
-java public static void  sheldonsTempSpass(){
-        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
-
-        double durchschnittT = 0;
-        for (double zahl :
-                tempArray) {
-            durchschnittT = durchschnittT+zahl;
-        }
-
-        durchschnittT = durchschnittT/ tempArray.length;
-
-        System.out.println(durchschnittT);
-
-        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
-            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
-
-        for (double temp :
-                tempArray) {
-            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
-                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
-
-        }
-    }```
-HerrGalgen#5413: ```java java public static void  sheldonsTempSpass(){
-        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
-
-        double durchschnittT = 0;
-        for (double zahl :
-                tempArray) {
-            durchschnittT = durchschnittT+zahl;
-        }
-
-        durchschnittT = durchschnittT/ tempArray.length;
-
-        System.out.println(durchschnittT);
-
-        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
-            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
-
-        for (double temp :
-                tempArray) {
-            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
-                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
-
-        }
-    }
-
-```
-HerrGalgen#5413: '''  java public static void  sheldonsTempSpass(){
-        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
-
-        double durchschnittT = 0;
-        for (double zahl :
-                tempArray) {
-            durchschnittT = durchschnittT+zahl;
-        }
-
-        durchschnittT = durchschnittT/ tempArray.length;
-
-        System.out.println(durchschnittT);
-
-        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
-            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
-
-        for (double temp :
-                tempArray) {
-            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
-                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
-
-        }
-    }'''
-HerrGalgen#5413: '''java java public static void  sheldonsTempSpass(){
-        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
-
-        double durchschnittT = 0;
-        for (double zahl :
-                tempArray) {
-            durchschnittT = durchschnittT+zahl;
-        }
-
-        durchschnittT = durchschnittT/ tempArray.length;
-
-        System.out.println(durchschnittT);
-
-        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
-            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
-
-        for (double temp :
-                tempArray) {
-            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
-                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
-
-        }
-    } '''
-HerrGalgen#5413: ´´´ java public static void  sheldonsTempSpass(){
-        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
-
-        double durchschnittT = 0;
-        for (double zahl :
-                tempArray) {
-            durchschnittT = durchschnittT+zahl;
-        }
-
-        durchschnittT = durchschnittT/ tempArray.length;
-
-        System.out.println(durchschnittT);
-
-        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
-            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
-
-        for (double temp :
-                tempArray) {
-            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
-                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
-
-        }
-    } ´´´
-HerrGalgen#5413: ´´´java java public static void  sheldonsTempSpass(){
-        double[] tempArray = {22.5, 22.4, 22.3,22.1,21.9,21.8,21.5,21.4,21.6,21.5,21.5,21.6,21.5,22.5};
-
-        double durchschnittT = 0;
-        for (double zahl :
-                tempArray) {
-            durchschnittT = durchschnittT+zahl;
-        }
-
-        durchschnittT = durchschnittT/ tempArray.length;
-
-        System.out.println(durchschnittT);
-
-        if((22-durchschnittT) > 0.5 ||(durchschnittT-22) > 0.5 )
-            System.out.println("Alaaaarm Abweichung +-0.5Graaad");
-
-        for (double temp :
-                tempArray) {
-            if((temp-durchschnittT) > 0.5 ||(durchschnittT-temp) >0.5 )
-                System.out.println(temp + "Alaaaarm Tagesdurchschnitt +-0.5Graaad");
-
-        }
-    } ´´´
-HerrGalgen#5413: 
-HerrGalgen#5413: 
-HerrGalgen#5413: 
-HerrGalgen#5413: 
-Sklave der Musik#4802: 
-HerrGalgen#5413: 
 Herbert der Chatbot#0719: 
-HerrGalgen#5413: 
-HerrGalgen#5413: 
-HerrGalgen#5413: 
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: 
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: Bla bla
+HerrGalgen#5413: -stats
+Herbert der Chatbot#0719: Bla bla
+HerrGalgen#5413: -stats
+HerrGalgen#5413: -numbers
+Got iz#9393: 
+HerrGalgen#5413: -numbers
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 005
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 111
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 1111
+Got iz#9393: 
+Lena  Laurer#8203: -numbers
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 006
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 001
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 15
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 014
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 111
+Lena  Laurer#8203: -numbers 014
+Lena  Laurer#8203: -numbers 0014
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 005
+Got iz#9393: 
+Lena  Laurer#8203: -numbers
+Lena  Laurer#8203: -numbers
+Lena  Laurer#8203: -numbers
+Lena  Laurer#8203: -numbers
+Lena  Laurer#8203: -numbers
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 003
+Got iz#9393: 
+HerrGalgen#5413: -numbers 008
+Got iz#9393: 
+Lena  Laurer#8203: -numbers 001
+Lena  Laurer#8203: -numbers 001
+Got iz#9393: 
+Lena  Laurer#8203: -numbers
+Got iz#9393: 
+Lena  Laurer#8203: -numbers
+Got iz#9393: 
+Lena  Laurer#8203: -numbers

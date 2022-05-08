@@ -6,6 +6,7 @@ from discord.ext.commands import Context
 
 FILEPATH = 'stats.log'
 
+
 async def status_task(client):
     while True:
         await client.change_presence(activity=discord.Game('Python'), status=discord.Status.online)
@@ -43,3 +44,7 @@ async def pn(ctx: Context):
         return
 
     await ctx.author.send('HIHIHI. Ich hab dir geschieben :)')
+
+
+async def ping(ctx, client):
+    await ctx.send(f'Pong! {round(client.latency * 1000)} ms')

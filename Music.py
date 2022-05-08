@@ -5,9 +5,9 @@ from youtube_dl import YoutubeDL
 
 
 class Music:
-    def __init__(self, ctx):
-        self.ctx = ctx
-        self.voice = ctx.message.guild.voice_client
+    def __init__(self):
+        self.ctx = None
+        self.voice = None
 
     async def start(self):
         await self.join()
@@ -33,7 +33,7 @@ class Music:
             await self.ctx.send("Der Bot war noch nicht in einem Sprachkanel, er versucht jetzt beizutreten.")
             await self.join()
 
-        self.ctx.voice_client.stop()
+        # self.ctx.voice_client.stop()
 
         ffmpeg_options = {
             'options': '-vn',
@@ -48,7 +48,11 @@ class Music:
             info = ydl.extract_info(url, download=False)
             url2 = info['formats'][0]['url']
             source = await discord.FFmpegOpusAudio.from_probe(url2, **ffmpeg_options)
-            self.ctx.message.guild.voice_client.play(source)
+
+            if self.ctx.voice_client.is_playing():  # Queue song bc bot is already playing.
+                await self.ctx.send("Der Song ist in der Warteschlange!")
+            else:  # Play song bc bot isn't playing.
+                self.ctx.message.guild.voice_client.play(source)
 
     async def join(self):
         try:
@@ -60,3 +64,8 @@ class Music:
                 await self.voice.move_to(voice_channel)
         except AttributeError:
             await self.ctx.send("Trete einen Sprachkanal bei, um den Bot zu dir zu rufen.")
+
+    def update(self, ctx):
+        self.ctx = ctx
+        self.voice = ctx.message.guild.voice_client
+        pass
